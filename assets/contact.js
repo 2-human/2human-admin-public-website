@@ -8,7 +8,7 @@
  * sees the form's error message; flip it to true, rebuild and publish when the inbox is live.
  */
 (function () {
-  var READY = false;
+  var READY = true;   // switched on 25 Nov 2026: the CRM inbox (hubs/2human-admin/inbox, ops:onInbox) is live
   var SDK = "https://www.gstatic.com/firebasejs/10.12.0/";
   var CONFIG = {   // the "2-human.com website" web app in admin-2human (public by design)
     apiKey: "AIzaSyA0dUU1XRSRxCiZBtbAsOmbDx5Dh0S6JsQ",
